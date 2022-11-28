@@ -3,7 +3,7 @@
 <head>
   <!-- Title -->
   <title>{{ appName() }} - {% block title %}{% endblock %}</title>
-
+  
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   {% block header %}
+  <style>html {--main: 225;}</style>
   {% endblock %}
 </head>
 
