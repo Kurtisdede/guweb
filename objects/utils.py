@@ -72,12 +72,12 @@ async def fetch_geoloc(ip: str) -> str:
         if not resp or resp.status != 200:
             if glob.config.debug:
                 log('Failed to get geoloc data: request failed.', Ansi.LRED)
-            return 'xx'
+            return 'tr'
         status, *lines = (await resp.text()).split('\n')
         if status != 'success':
             if glob.config.debug:
                 log(f'Failed to get geoloc data: {lines[0]}.', Ansi.LRED)
-            return 'xx'
+            return 'tr'
         return lines[1].lower()
 
 async def validate_captcha(data: str) -> bool:

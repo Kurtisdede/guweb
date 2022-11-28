@@ -26,7 +26,7 @@ html {
 
 .main-block {
   width: inherit;
-  background: hsl(var(--main), 10%, 15%);
+  background: hsl(var(--main), 10%, 75%);
 }
 
 /* stuffs */
@@ -284,11 +284,11 @@ a.foot-link {
 }
 
 .bg-accent {
-  background-color: hsl(var(--main), 30%, 50%);
+  background-color: hsl(var(--main), 30%, 70%);
 }
 
 .bg-seccond {
-  background-color: hsl(var(--main),10%,15%);
+  background-color: hsl(var(--main),10%,25%);
 }
 
 /* auth notification */
@@ -558,7 +558,7 @@ a.foot-link {
   height: 100%;
   width: 100%;
   content: "";
-  background-color: hsla(var(--main), 40%, 40%, 0.7) !important;
+  background-color: hsla(var(--main), 80%, 75%, 0.7) !important;
 }
 
 @media (min-width: 900px) {
