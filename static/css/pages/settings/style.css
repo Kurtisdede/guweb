@@ -414,7 +414,7 @@ input::placeholder {
 
 .bootstrap-select.btn-group .dropdown-menu li.selected,
 .bootstrap-select.btn-group .dropdown-menu li:hover {
-  background-color: #f6a;
+  background-color: #4af;
   color: #fff;
 }
 
@@ -449,7 +449,7 @@ input::placeholder {
 .bootstrap-select .dropdown-toggle:focus {
   outline: 0 !important;
   box-shadow: none;
-  border: 2px #f6a solid;
+  border: 2px #4af solid;
 }
 
 .bootstrap-select>.dropdown-toggle {
@@ -483,7 +483,7 @@ input::placeholder {
 }
 
 .btn-group.bootstrap-select.show .btn {
-  border: 2px solid #f6a;
+  border: 2px solid #4af;
 }
 
 .bootstrap-select.btn-group .dropdown-menu li.selected a:after {
@@ -502,7 +502,7 @@ input::placeholder {
 }
 
 .settings-btn {
-  color: #f6a;
+  color: #4af;
   border-radius: 8px;
   padding: 8px;
   font-size: 14px;
@@ -512,7 +512,7 @@ input::placeholder {
   padding-right: 24px;
   transition: 0.2s background-color, 0.2s color, 0.2s border;
   cursor: pointer;
-  border: #f6a solid 2px;
+  border: #4af solid 2px;
   margin-top: 12px;
   text-align: center;
   min-width: 204px;
@@ -540,8 +540,8 @@ input::placeholder {
 .settings-btn:hover:not(.disabled) {
   outline: 0;
   color: #fff;
-  background-color: #f6a;
-  border: #f6a solid 2px;
+  background-color: #4af;
+  border: #4af solid 2px;
   text-decoration: none;
 }
 
@@ -719,11 +719,11 @@ label.checkbox {
 }
 
 .device-input:checked+label:hover {
-  background-color: #f6a;
+  background-color: #4af;
 }
 
 .device-input:checked+label {
-  border-color: #f6a;
+  border-color: #4af;
 }
 
 @media (max-width: 992px) {
@@ -737,7 +737,7 @@ label.checkbox {
   font-family: Font Awesome\5 Pro;
   font-weight: 700;
   font-size: 9px;
-  color: #f6a;
+  color: #4af;
   transition: 0.2s color;
   position: absolute;
 }
@@ -747,11 +747,11 @@ label.checkbox {
 }
 
 label.checkbox:hover {
-  border-color: #f6a;
+  border-color: #4af;
 }
 
 input:checked+label.checkbox:hover {
-  background-color: #f6a;
+  background-color: #4af;
   border-color: transparent;
 }
 
@@ -785,7 +785,7 @@ label.user-avatar.loading:before {
 .avatar-error {
   position: absolute;
   margin-top: -60px;
-  background-color: #cc284fd1;
+  background-color: #44aaffd1;
   color: #fff;
   width: 160px;
   text-align: center;
@@ -820,8 +820,8 @@ i.loadspin {
 }
 
 .settings-btn.unlink:hover {
-  background-color: #e74c3c !important;
-  border: #e74c3c solid 2px !important;
+  background-color: #3c3ce7 !important;
+  border: #3c3ce7 solid 2px !important;
 }
 
 .alert {
