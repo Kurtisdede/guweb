@@ -26,6 +26,7 @@
 
 #title, #mascot {
   animation: appear 0.4s ease;
+  background: hsl(var(--main), 0%, 0%);
 }
 
 @-webkit-keyframes appear {
@@ -62,7 +63,7 @@
 }
 
 .splash {
-  background: hsl(var(--main), 40%, 80%);
+  background: hsl(var(--main), 50%, 75%);
 }
 
 .footer {
