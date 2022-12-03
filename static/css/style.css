@@ -558,7 +558,7 @@ a.foot-link {
   height: 100%;
   width: 100%;
   content: "";
-  background-color: hsla(var(--main), 80%, 75%, 0.7) !important;
+  background-color: hsla(var(--main), 50%, 50%, 0.7) !important;
 }
 
 @media (min-width: 900px) {
